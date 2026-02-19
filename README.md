@@ -32,7 +32,7 @@ tiny\_reasoner/
 Ensure you have Python 3.10+ and a CUDA-capable GPU.
 
 1. **Clone the repository:**  
-   git clone \[https://github.com/your-username/tiny-reasoner.git\](https://github.com/your-username/tiny-reasoner.git)  
+   git clone https://github.com/kkm121/Tiny-Reasoner.git 
    cd tiny-reasoner
 
 2. **Install dependencies:**  
