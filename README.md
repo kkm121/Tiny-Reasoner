@@ -17,15 +17,15 @@ The resulting model is capable of performing Chain-of-Thought (CoT) reasoning wh
 
 ## **Project Structure**
 
-tiny\_reasoner/  
-├── configs/  
-│   └── qwen\_qlora.yaml  
-├── inference.py  
-├── requirements.txt  
-├── tiny\_reasoner\_artifacts/  
-└── train/  
-│   └── train.py
-│   └── data_loader.py
+tiny_reasoner/
+├── configs/
+│   └── qwen_qlora.yaml
+├── inference.py
+├── requirements.txt
+├── tiny_reasoner_artifacts/
+└── train/
+    ├── data_loader.py
+    └── train.py
 
 ## **Installation**
 
