@@ -13,8 +13,7 @@ The resulting model is capable of performing Chain-of-Thought (CoT) reasoning wh
 * **Frameworks:** PyTorch, Hugging Face Transformers, PEFT, BitsAndBytes.
 
 ## **Demo**
-
-![][image1]
+<img width="1196" height="258" alt="Screenshot 2026-02-19 222423" src="https://github.com/user-attachments/assets/fe211ce7-fb04-43cf-b447-3c2435673957" />
 
 ## **Project Structure**
 
