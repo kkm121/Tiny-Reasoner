@@ -1,0 +1,32 @@
+# Configuration file defining model hyperparameters, LoRA settings, and training arguments for Qwen2.5 fine-tuning.
+model:
+  base_id: "Qwen/Qwen2.5-1.5B-Instruct"
+  max_seq_length: 1024
+  load_in_4bit: true
+
+lora:
+  r: 8
+  lora_alpha: 16
+  lora_dropout: 0.1
+  bias: "none"
+  target_modules: 
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+training:
+  batch_size: 2
+  gradient_accumulation_steps: 8
+  warmup_steps: 10
+  max_steps: 60
+  learning_rate: 2.0e-4
+  logging_steps: 1
+  optim: "paged_adamw_8bit"
+  output_dir: "tiny_reasoner_artifacts"
+
+paths:
+  adapter_save_path: "tiny_reasoner_artifacts"
