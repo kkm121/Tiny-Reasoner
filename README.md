@@ -24,8 +24,8 @@ tiny\_reasoner/
 ├── requirements.txt  
 ├── tiny\_reasoner\_artifacts/  
 └── train/  
-|    ├── data\_loader.py  
-|    └── train.py
+│   └── train.py
+│   └── data_loader.py
 
 ## **Installation**
 
