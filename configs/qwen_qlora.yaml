@@ -1,4 +1,3 @@
-# Configuration file defining model hyperparameters, LoRA settings, and training arguments for Qwen2.5 fine-tuning.
 model:
   base_id: "Qwen/Qwen2.5-1.5B-Instruct"
   max_seq_length: 1024
